@@ -6,7 +6,7 @@
   "scripts": {
     "test": "npm run test:app && npm run test:eslint",
     "test:eslint": "eslint .",
-    "test:app": "jasmine-node --verbose tests/index.spec.js",
+    "test:app": "mocha tests/index.spec.js",
     "postpublish": "greenkeeper-postpublish"
   },
   "repository": {
@@ -18,11 +18,11 @@
   "homepage": "https://github.com/dostolu/exctractIntl#readme",
   "devDependencies": {
     "chai": "^3.5.0",
-    "eslint": "^3.1.0",
+    "eslint": "^3.8.0",
     "eslint-config-airbnb-base": "^9.0.0",
-    "eslint-plugin-import": "^2.0.0",
+    "eslint-plugin-import": "^2.0.1",
     "eslint-plugin-jsx-a11y": "^2.2.3",
     "greenkeeper-postpublish": "^1.0.1",
-    "jasmine-node": "^1.14.5"
+    "mocha": "^3.1.2"
   }
 }
